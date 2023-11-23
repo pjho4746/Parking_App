@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @Transactional
 @RequiredArgsConstructor
 public class UserService {
-
+    
     private final UserRepository userRepository;
 
     public List<ParkingDTO> findNearbyParking(UserLocationDTO userLocationDTO){
