@@ -36,3 +36,40 @@ server/.nb-gradle/
 ### VS Code ###
 .vscode/
 .DS_Store
+
+### client ###
+client/node_modules
+client/.pnp
+client/.pnp.js
+client/.yarn/install-state.gz
+
+# testing
+client/coverage
+
+# next.js
+client/.next/
+client/out/
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+*.pem
+
+# debug
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# local env files
+client/.env*.local
+
+# vercel
+client/.vercel
+
+# typescript
+*.tsbuildinfo
+client/next-env.d.ts
+
+
